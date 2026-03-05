@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,41 +6,40 @@
 
 @layer base {
   :root {
-    --background: 40 33% 97%;
-    --foreground: 200 15% 15%;
+    --background: 210 20% 98%;
+    --foreground: 215 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 200 15% 15%;
+    --card-foreground: 215 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 200 15% 15%;
+    --popover-foreground: 215 25% 15%;
 
-    --primary: 160 35% 30%;
-    --primary-foreground: 40 33% 97%;
+    --primary: 210 60% 38%;
+    --primary-foreground: 210 20% 98%;
 
-    --secondary: 40 25% 92%;
-    --secondary-foreground: 200 15% 15%;
+    --secondary: 210 25% 93%;
+    --secondary-foreground: 215 25% 15%;
 
-    --muted: 40 20% 94%;
-    --muted-foreground: 200 10% 45%;
+    --muted: 210 15% 95%;
+    --muted-foreground: 215 10% 45%;
 
-    --accent: 160 20% 90%;
-    --accent-foreground: 160 35% 25%;
+    --accent: 210 30% 92%;
+    --accent-foreground: 210 60% 30%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 40 15% 88%;
-    --input: 40 15% 88%;
-    --ring: 160 35% 30%;
+    --border: 210 15% 90%;
+    --input: 210 15% 90%;
+    --ring: 210 60% 38%;
 
     --radius: 0.5rem;
 
-    --hero-gradient: linear-gradient(135deg, hsl(160 35% 30%), hsl(160 25% 40%));
-    --section-alt: 40 25% 95%;
+    --section-alt: 210 20% 96%;
 
-    --font-heading: 'Playfair Display', Georgia, serif;
-    --font-body: 'Source Sans 3', system-ui, sans-serif;
+    --font-heading: 'Merriweather', Georgia, serif;
+    --font-body: 'DM Sans', system-ui, sans-serif;
   }
 }
 
