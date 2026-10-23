@@ -1,0 +1,126 @@
+{
+  "businessName": "Nene Clinic",
+  "tagline": "ENT · Gynecology · Hospital",
+  "meta": {
+    "title": "Nene Clinic Vadodara – ENT Specialist & Gynecologist",
+    "description": "Nene Clinic in Gotri, Vadodara offers specialist ENT surgery and gynecology services by Dr. Milind Nene and Dr. Suchitra Nene. Call 098240 94947."
+  },
+  "colors": {
+    "primary": "#27619b",
+    "secondary": "#e9edf2",
+    "primaryForeground": "#ffffff",
+    "secondaryForeground": "#1e293b"
+  },
+  "contact": {
+    "phone": "098240 94947",
+    "whatsapp": "09824094947",
+    "address": "Sarita Sangam Society, 32, Gotri Rd, Gotri, Vadodara, Gujarat 390021",
+    "mapsUrl": "https://maps.google.com/?q=Nene+Clinic+Gotri+Vadodara",
+    "hours": [
+      "Dr. Suchitra Nene: 9–11am / 6–8pm",
+      "Dr. Milind Nene: 11am–1pm / 5–7pm"
+    ]
+  },
+  "hero": {
+    "title": "Specialist ENT & Maternity Care in Vadodara",
+    "description": "Trusted ENT surgery and gynecology services by experienced specialists. Comprehensive hospital care for the whole family.",
+    "rating": 3.4,
+    "reviewCount": "161 Reviews"
+  },
+  "about": {
+    "title": "Our Specialists",
+    "items": [
+      {
+        "name": "Dr. Milind Nene",
+        "role": "ENT Specialist / Surgeon",
+        "desc": "Experienced ENT surgeon specializing in sinus surgery, ear drum repair, and pediatric ENT care. Known for handling children patiently during procedures.",
+        "icon": "Stethoscope"
+      },
+      {
+        "name": "Dr. Suchitra Nene",
+        "role": "Gynecologist / Maternity Care",
+        "desc": "Experienced gynecologist providing comprehensive maternity care, pregnancy consultation, and women's health treatment.",
+        "icon": "Baby"
+      }
+    ]
+  },
+  "strengths": {
+    "title": "Why Patients Trust Us",
+    "items": [
+      {
+        "icon": "🩺",
+        "title": "Experienced Doctors",
+        "desc": "Long experience and deep medical knowledge in ENT and gynecology."
+      },
+      {
+        "icon": "🔬",
+        "title": "Surgical Expertise",
+        "desc": "Successful ENT surgeries like sinus surgery and ear drum repair."
+      },
+      {
+        "icon": "🏥",
+        "title": "Clean Facility",
+        "desc": "Clinic is neat, well-maintained, and hygienic."
+      },
+      {
+        "icon": "👶",
+        "title": "Child-Friendly Care",
+        "desc": "Doctor handles children patiently during ENT procedures."
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "items": [
+      {
+        "icon": "Stethoscope",
+        "title": "ENT Treatments",
+        "items": [
+          "Ear infections & ear pain",
+          "Ear wax removal",
+          "Sinus treatment",
+          "Endoscopic sinus surgery",
+          "Nose surgery (DNS)",
+          "Hearing related issues"
+        ]
+      },
+      {
+        "icon": "Baby",
+        "title": "Gynecology & Maternity",
+        "items": [
+          "Pregnancy consultation",
+          "Delivery care",
+          "Women's health treatment",
+          "Maternity support"
+        ]
+      },
+      {
+        "icon": "Hospital",
+        "title": "General Hospital",
+        "items": [
+          "Diagnostic consultation",
+          "Minor surgeries",
+          "Follow-up treatments"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Patient Reviews",
+    "items": [
+      "Dr. Milind Nene is excellent. My son was very scared of doctors but he handled him very patiently.",
+      "I had sinus surgery here and the treatment and facilities were very good.",
+      "Dr. Suchitra Nene is very experienced and approachable for maternity care."
+    ],
+    "badges": [
+      "⭐ 3.4 Google Rating",
+      "161+ Reviews",
+      "Specialist Doctors",
+      "Established Hospital"
+    ]
+  },
+  "footer": {
+    "subtitle": "Dr. Milind Nene · ENT Specialist | Dr. Suchitra Nene · Gynecologist · Vadodara",
+    "credit": "Website designed & developed by Aman Web Studio"
+  }
+}
