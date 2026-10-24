@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -34,26 +34,102 @@
     --input: 210 15% 90%;
     --ring: 210 60% 38%;
 
-    --radius: 0.5rem;
+    --radius: 10px;
 
     --section-alt: 210 20% 96%;
 
-    --font-heading: 'Merriweather', Georgia, serif;
-    --font-body: 'DM Sans', system-ui, sans-serif;
+    --font-heading: 'DM Sans', system-ui, -apple-system, sans-serif;
+    --font-body: 'DM Sans', system-ui, -apple-system, sans-serif;
   }
 }
 
 @layer base {
-  * {
+  html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
     @apply border-border;
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground text-base;
     font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
+  }
+}
+
+/* Shadows */
+.card-shadow {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.card-shadow:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.09);
+}
+
+/* Card Interaction: 150-200ms transition on hover (lifts 2px) */
+.card-interactive {
+  transition: transform 200ms ease-out, box-shadow 200ms ease-out;
+}
+
+.card-interactive:hover {
+  transform: translateY(-2px);
+}
+
+.card-interactive:active {
+  transform: translateY(0);
+}
+
+/* Button Interaction: 150-200ms transition, darkens slightly on hover, press effect on tap */
+.btn-pill {
+  border-radius: 9999px;
+  transition: filter 150ms ease-out, transform 150ms ease-out, opacity 150ms ease-out, background-color 150ms ease-out;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn-pill:hover {
+  filter: brightness(0.95);
+}
+
+.btn-pill:active {
+  transform: scale(0.98);
+}
+
+/* Hero Content: single gentle fade-in on load */
+@keyframes heroFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-fade-in {
+  animation: heroFadeIn 0.5s ease-out forwards;
+}
+
+/* Respect prefers-reduced-motion by turning all animations, transitions, and transforms off */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    transform: none !important;
   }
 }
